@@ -189,10 +189,10 @@ LOCATION_INFO = {
 }
 
 DEFAULT_PRICES = {
-    'breakfast': 9.75,
-    'lunch': 13.75,
-    'brunch': 13.75,
-    'dinner': 14.95
+    'breakfast': 14.75,
+    'lunch': 15.75,
+    'brunch': 15.75,
+    'dinner': 15.75
 }
 
 # Default opening and closing times
