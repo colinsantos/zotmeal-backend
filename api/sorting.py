@@ -1,21 +1,24 @@
 ORDERINGS = [
-    'Home',# anteatery main dish
-    'Oven',# anteatery pizza
-    'Fire And Ice Round Grill',# anteatery main dish 2
-    'Grubb / Mainline',# brandywine main dish
-    'Compass',# brandywine main dish 2
-    'Hearth/Pizza',# brandywine pizza
-    'Deli',# anteatery sandwiches
-    'The Farm Stand / Deli',
-    'Crossroads',# brandywine 3rd entree
+    'Home',# anteatery main line
+    'The Oven',# anteatery pizza
+    'Fire & Ice',# anteatery mongolian
+    'Grubb',# brandywine main line
+    'Compass',# brandywine allergen station
+    'Hearth',# brandywine pizza
+    "The Farmer's Market (Deli)",# anteatery sandwiches
+    'The Farm Stand/ Deli',# brandywine sandwiches
+    'The Crossroads',# brandywine 2nd entree
+    'Noodle Bar',# anteatery saute
+    'Saute',# brandywine saute
     'Sizzle Grill',# anteatery burgers
-    'Ember/Grill',# brandywine burgers
-    'Vegan',# both vegan
-    'Bakery',# anteatery dessert
-    'Honeycakes/Bakery',# brandywine dessert
-    'Soups',# both soup
+    'Ember',# brandywine burgers
+    'The Twisted Root',# both vegan
+    'The Bakery',# anteatery dessert
+    'Honeycakes',# brandywine dessert
+    "Farmer's Market (Soups)",# anteatery soup
+    'The Farm Stand (Soups)',# brandywine soup
     "Farmer's Market",# anteatery salad
-    'The Farm Stand / Salad Bar'# brandywine salad
+    'The Farm Stand (Salad)'# brandywine salad
 ]
 
 def station_ordering_key(station_name: str) -> int:
